@@ -1,59 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Why Choose Computer Science?</title>
-</head>
-    <body>
-        <link rel="stylesheet" href="style.css">             
-
-    <div class="sidenav">
-    
-
-      <a href="index.html">Home</a>
-      
-      <button class="dropdown-btn"> Majors</button>
-      <div class="dropdown-container">
-        <a href="writesitehere.html">Other screen </a>
-      </div>    
-
-      <button class="dropdown-btn">Experience</button>
-    <div class="dropdown-container">
-      <a href="writesitehere.html">Other screen </a>
-      </div>  
-
-      <button class="dropdown-btn">Coding</button>
-    <div class="dropdown-container">
-      <a href="writesitehere.html">Other screen </a>
-      </div>  
-      
-
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="topbar-nav">
+        <a>Why?</a>
+        <a class="dropdown-btn">What is it like?</a>
+        <div class="dropdown-container">
+          <a>General</a>
+          <a>Gaming</a>
+          <a>Cybersecurity</a>
+          <a>Business</a>
+        </div>
+        <a>Careers</a>
+        <a>How do I prepare?</a>
+        <a>How we made this</a>
+        <a>Learn More</a>
       </div>
-
-
-      <h1 class = "title">How to<br> prepare <br>to be a <br>Computer <br>Science <br>Major</h1>
-
-    
-
-    <script>
-
-
-
-     var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-    </script>
-
-    </body>
+    </div>
+    <h1 class="title">How to<br> prepare <br>to be a <br>Computer <br>Science <br>Major</h1>
+    <script src="dropdown-menu.js"></script>
+  </body>
 </html>
-
