@@ -75,15 +75,29 @@
   margin-left: 170px; 
   margin-right: 500px;
   margin-top: 100px;
-
-  font-size: 20px; 
   padding: 10px 200px;
 
   font-size: 50px;
-
-
-
 }
+
+
+.subtitle {
+  font-size: 20px;
+}
+
+
+div.section {
+  margin-left: 100px; 
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 100px;
+}
+
+p.section {
+  font-size: 12px;
+}
+
 
 
 body {
