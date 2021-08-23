@@ -87,9 +87,15 @@
 
 
 div.section {
-  margin-left: 200px; 
-  margin-right: 200px;
-  padding: 10px 200px;
+  margin-left: 100px; 
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 100px;
+}
+
+p.section {
+  font-size: 12px;
 }
 
 
