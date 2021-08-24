@@ -51,6 +51,7 @@
   position: fixed;
   top: 60px;
   max-width: 128px;
+
 }
 
 .dropdown-container a {
@@ -58,6 +59,7 @@
   position: relative;
   width: 100%;
   background-color: rgb(49, 0, 0);
+
 }
 
 .fa-caret-down {
@@ -138,9 +140,18 @@ body {
 }
 
 .section{
+<<<<<<< HEAD
   height: 80vh;
   width : 180vh;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(2, 0, 0, 0.781);
+=======
+  height: 70vh;
+  float: center;
+  width : 156vh;
+
+  background-color: rgb(41, 0, 0);
+
+>>>>>>> 2d772b712fac93da09b4434f338057db24756d86
 }
