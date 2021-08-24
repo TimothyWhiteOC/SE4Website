@@ -51,6 +51,7 @@
   position: fixed;
   top: 60px;
   max-width: 128px;
+
 }
 
 .dropdown-container a {
@@ -58,6 +59,7 @@
   position: relative;
   width: 100%;
   background-color: rgb(49, 0, 0);
+
 }
 
 .fa-caret-down {
@@ -143,4 +145,5 @@ body {
   width : 156vh;
 
   background-color: rgb(41, 0, 0);
+
 }
