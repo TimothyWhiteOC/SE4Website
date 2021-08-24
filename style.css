@@ -117,7 +117,7 @@ body {
 
 .titleBack{
   height: 30vh;
-  width : 200vh;
+  width : 195vh;
   margin-bottom: 120px;
 
   background-color: rgb(41, 0, 0);
@@ -135,4 +135,12 @@ body {
   width : 156vh;
 
   background-color: rgb(0, 0, 0);
+}
+
+.section{
+  height: 70vh;
+  float: center;
+  width : 156vh;
+
+  background-color: rgb(41, 0, 0);
 }
