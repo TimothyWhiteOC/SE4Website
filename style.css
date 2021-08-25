@@ -10,7 +10,7 @@
 }
 
 .topbar-nav {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .dropdown-container a {
-  left: 60px;
+  left: 180px;
   position: relative;
   width: 100%;
   background-color: rgb(49, 0, 0);
